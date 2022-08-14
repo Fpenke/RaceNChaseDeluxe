@@ -66,7 +66,7 @@
 
 //--------------------------------------------------------------------------------------------------------------------
 //Anfang des Spiels
-		function runGame() { 
+		function main() { 
 			let c = document.getElementById("canvas");
 			let ctx = c.getContext("2d");
 			punkteMachen();
@@ -93,6 +93,7 @@
 			ctx.fillStyle = "blue";
 			autoRendern(aktuellesAuto, ctx);
 		}
+//--------------------------------------------------------------------------------------------------------------------
 
 		//Gamelogik
 

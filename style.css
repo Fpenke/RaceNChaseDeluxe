@@ -41,3 +41,16 @@ header .version {
     font-size: 70%;
     color: #919191;
 }
+
+canvas {
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 5;
+    bottom: 5;
+    left: 0;
+    right: 0;
+}
