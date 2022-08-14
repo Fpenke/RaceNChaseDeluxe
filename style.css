@@ -1,0 +1,43 @@
+header {
+    height: 80px;
+    margin: 0;
+    padding: 10px 20px 10px 30px;
+    background-color: #033369;
+    color: rgb(255, 255, 255);
+}
+ /*Title */ 
+header>h1 {
+    font-size: 2em;
+    height: 1.3em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+}
+
+header>h1>span {
+    font-weight: bold;
+}
+
+ /* Description*/ 
+header p {
+    color: rgb(216, 216, 216);
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.3em;
+    max-height: 1.3em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 5px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+header .version {
+    font-size: 70%;
+    color: #919191;
+}
